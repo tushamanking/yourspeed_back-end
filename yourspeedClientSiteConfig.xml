@@ -1,0 +1,39 @@
+<config version="1.0">
+<radar>
+    <id id="1">
+        <ip>localhost</ip>
+        <tcpPort>51716</tcpPort>
+        <udpPort>9931</udpPort>
+        <enable>1</enable>
+        <distance>50</distance>
+        <speedOffset>0</speedOffset>
+    </id>
+</radar>
+<led>
+    <id id="1">
+        <ip>192.168.1.1</ip>
+        <port>2000</port>
+        <enable>1</enable>
+        <warningSpeed>90</warningSpeed>
+        <overSpeed>120</overSpeed>
+        <brink>0</brink>
+        <showTime>100</showTime>
+    </id>
+</led>
+<system>
+    <id>2</id>
+    <enable>1</enable>
+    <radarService>0</radarService>
+    <localIP>localhost</localIP>
+    <relayUSBEnable>0</relayUSBEnable>
+    <relayUSBSerialNumber>959BI</relayUSBSerialNumber>
+    <comPortEnable>0</comPortEnable>
+    <comPort>COM3</comPort>
+    <timeWorkEnable>1</timeWorkEnable>
+    <timeWork>111111111111111111111111</timeWork>
+    <ledEnable>1</ledEnable>
+    <batteryMode>1</batteryMode>
+    <batteryOff>50</batteryOff>
+    <batteryOn>80</batteryOn>
+</system>
+</config>

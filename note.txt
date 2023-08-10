@@ -1,0 +1,2 @@
+relay board
+http://denkovi.com/ethernet-relay-card-5-channel-snmp-http-xml-api-real-time-clock
